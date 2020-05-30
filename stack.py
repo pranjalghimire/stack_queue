@@ -1,8 +1,5 @@
 class Stack():
   def __init__(self,list):
-    if not list:
-        self.list=[]
-    else:
         self.list=list
 
   def push(self,value):
